@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagify - Resize or Compress</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="container">
+    <h1> Imagify - Resize or Compress</h1>
+    <div class="upload-box">
+        <input type="file" accept="image/*" id="upload-img" hidden>
+        <img src="upload.png" alt="">
+        <p>Browse File To Upload</p>
+    </div>
+    <div class="content">
+        <div class="row sizes">
+            <div class="column width">
+                <label >Width</label>
+                <input type="number" class="number">
+            </div>
+            <div class="column height">
+                <label >Height</label>
+                <input type="number" class="number">
+            </div>
+        </div>
+
+
+          
+        <div class="row checkboxes">
+            <div class="column ratio">
+                <input type="checkbox" id="ratio" checked>
+                <label for="ratio" >Lock Aspect Ratio</label>
+            </div>
+
+            <div class="column quality">
+                <input type="checkbox" id="quality" checked>
+                <label for="ratio">Compress Quality</label>
+            </div>
+        </div>
+        <button class="download-btn">Download Image</button>
+        <p class="credit">Made With Love ❤️ By @Techgenius</p>
+    </div>
+
+</div>
+
+</body>
+</html>
