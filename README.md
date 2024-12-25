@@ -1,4 +1,6 @@
 # Image-resizer-and-compressor.github.io
+
+Disclaimer: Made with the help of Tutorials and i changed the user interface and add some my own features.
  
 Let me Introduce Imagify , Imagify is a web application which can resize and compress your images easily in onclick , we used different algorithm and optimize the quality of the image generate to give better quality output , you can also download the image in you desired Aspect ration and sizes you can also compress the quality easily with our user friendly interface.
 
